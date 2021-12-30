@@ -1,0 +1,16 @@
+domain: tantalor93.github.com
+layout:
+- go.kubebuilder.io/v3
+projectName: kubebuilder-demo
+repo: github.com/tantalor93
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: tantalor93.github.com
+  group: batch
+  kind: CronJob
+  path: github.com/tantalor93/api/v1
+  version: v1
+version: "3"
